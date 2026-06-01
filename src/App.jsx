@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, LinkedIn, MapPin, ArrowRight, Sparkles, BriefcaseBusiness, BarChart3, Users, Rocket, ShieldCheck } from "lucide-react";
+import { Mail, LinkedinIcon, MapPin, ArrowRight, Sparkles, BriefcaseBusiness, BarChart3, Users, Rocket, ShieldCheck } from "lucide-react";
 
 const highlights = [
   { metric: "$13M → $130M", label: "CircleCI ARR growth journey" },
@@ -129,7 +129,7 @@ export default function App() {
             <div className="contact-row">
               <span><MapPin size={16} /> San Francisco Bay Area</span>
               <a href="mailto:cheryl.manalo@gmail.com"><Mail size={16} /> cheryl.manalo@gmail.com</a>
-              <a href="https://www.linkedin.com/in/cheryl-manalo-9491074/"><LinkedIn size={16} /> LinkedIn</a>
+              <a href="https://www.linkedin.com/in/cheryl-manalo-9491074/"><LinkedinIcon size={16} /> LinkedIn</a>
             </div>
             <div className="button-row">
               <a className="primary-button" href="#experience">View experience <ArrowRight size={16} /></a>
