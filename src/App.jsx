@@ -250,8 +250,9 @@ export default function App() {
         Created architecture and messaging frameworks that simplified
         complex payments offerings across multiple products and audiences.
       </p>
-    </div>
-  </div>
+</div>
+</div>
+</div>
 </section>
 
       <footer>
