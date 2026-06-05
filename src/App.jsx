@@ -216,7 +216,6 @@ export default function App() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  Work Samples
 </a>
 
       <footer>
