@@ -345,3 +345,8 @@ h1 {
   .content-section, .white-section, .dark-section, footer { padding: 64px 18px; }
   .leadership-card, .metric-card, .role-card, .footer-card { border-radius: 24px; padding: 22px; }
 }
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
