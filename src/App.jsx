@@ -212,8 +212,9 @@ export default function App() {
           {tools.map((tool) => <span key={tool}>{tool}</span>)}
         </div>
       </section>
-      <section id="work" className="section">
-  <h2>Selected Work</h2>
+<section id="work" className="content-section">
+  <div className="container">
+  <h2>Selected Work Samples</h2>
 
   <div className="work-grid">
 
@@ -250,7 +251,6 @@ export default function App() {
         complex payments offerings across multiple products and audiences.
       </p>
     </div>
-
   </div>
 </section>
 
