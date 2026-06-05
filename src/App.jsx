@@ -115,6 +115,7 @@ export default function App() {
             <a href="#impact">Impact</a>
             <a href="#experience">Experience</a>
             <a href="#tooling">Tooling</a>
+            <a href="#work">Selected Work Samples</a>
           </div>
           <a className="nav-button" href="mailto:cheryl.manalo@gmail.com">Contact</a>
         </nav>
@@ -211,6 +212,47 @@ export default function App() {
           {tools.map((tool) => <span key={tool}>{tool}</span>)}
         </div>
       </section>
+      <section id="work" className="section">
+  <h2>Selected Work</h2>
+
+  <div className="work-grid">
+
+    <div className="work-card">
+      <h3>CircleCI Orbs</h3>
+      <p>
+        Led go-to-market strategy and launch execution for CircleCI Orbs,
+        a configuration package ecosystem that ultimately achieved
+        approximately 80% adoption across the user base.
+      </p>
+    </div>
+
+    <div className="work-card">
+      <h3>Snowflake Developer Experiences</h3>
+      <p>
+        Developed GTM strategy and positioning for Snowflake's developer
+        platform initiatives including Streamlit in Snowflake,
+        Python APIs, Snowflake CLI, and Dev Day.
+      </p>
+    </div>
+
+    <div className="work-card">
+      <h3>Anaconda AI Platform</h3>
+      <p>
+        Led positioning, messaging, launch strategy, and enablement
+        for AI-native development and enterprise AI platform initiatives.
+      </p>
+    </div>
+
+    <div className="work-card">
+      <h3>Braintree & PayPal Positioning Framework</h3>
+      <p>
+        Created architecture and messaging frameworks that simplified
+        complex payments offerings across multiple products and audiences.
+      </p>
+    </div>
+
+  </div>
+</section>
 
       <footer>
         <div className="footer-card">
