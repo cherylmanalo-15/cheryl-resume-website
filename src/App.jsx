@@ -115,6 +115,13 @@ export default function App() {
             <a href="#impact">Impact</a>
             <a href="#experience">Experience</a>
             <a href="#tooling">Tooling</a>
+            <a
+  href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Work-Samples.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Work Samples
+</a>
           </div>
           <a className="nav-button" href="mailto:cheryl.manalo@gmail.com">Contact</a>
         </nav>
@@ -225,6 +232,15 @@ export default function App() {
             <p>Product marketing leadership for AI, developer tools, and open-source ecosystems.</p>
           </div>
           <a className="primary-button" href="mailto:cheryl.manalo@gmail.com">Contact Cheryl <ArrowRight size={16} /></a>
+            <a
+    className="secondary-button"
+    href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Work-Samples.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View Work Samples
+  </a>
+</div>
         </div>
       </footer>
     </main>
