@@ -225,24 +225,27 @@ export default function App() {
 >
 </a>
 
-      <footer>
-        <div className="footer-card">
-          <div>
-            <h2>Let’s build the story behind the next technical platform.</h2>
-            <p>Product marketing leadership for AI, developer tools, and open-source ecosystems.</p>
-          </div>
-          <a className="primary-button" href="mailto:cheryl.manalo@gmail.com">Contact Cheryl <ArrowRight size={16} /></a>
-            <a
-    className="secondary-button"
-    href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Work-Samples.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    View Work Samples
-  </a>
-</div>
-        </div>
-      </footer>
+<footer>
+  <div className="footer-card">
+    <div>
+      <h2>Let’s build the story behind the next technical platform.</h2>
+      <p>Product marketing leadership for AI, developer tools, and open-source ecosystems.</p>
+    </div>
+
+    <a className="primary-button" href="mailto:cheryl.manalo@gmail.com">
+      Contact Cheryl <ArrowRight size={16} />
+    </a>
+
+    <a
+      className="secondary-button"
+      href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Work-Samples.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Work Samples
+    </a>
+  </div>
+</footer>
     </main>
   );
 }
