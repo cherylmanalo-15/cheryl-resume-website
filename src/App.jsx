@@ -32,7 +32,7 @@ const roles = [
       "Led GTM transformation during Anaconda’s shift from a traditional data science platform to a trusted foundation for AI-native development and enterprise AI workflows.",
     bullets: [
       "Led executive positioning workshops to redefine the company narrative around AI-native development.",
-      "Established messaging frameworks centered on governance, reproducibility, workflow adoption, and enterprise AI development.",
+      "Helped connect the expanding portfolio into an enterprise AI platform narrative, expressed through a customer workflow and four capability pillars for the platform overview and homepage.",
       "Restructured sales enablement and field training programs, increasing enablement engagement by 5x.",
       "Oversaw Community and DevRel, aligning OSS initiatives, technical content, and field programs to platform adoption goals.",
     ],
@@ -59,7 +59,7 @@ const roles = [
       "Built GTM strategy for Snowflake developer experiences, including Notebooks, Streamlit in Snowflake, DevOps, and Copilot.",
     bullets: [
       "Drove developer-centric feature releases into GA and public preview at Data Cloud Summit.",
-      "Created GTM motion and market assessment for Snowflake Developer Experiences.",
+      "Developed positioning and product stories for Notebooks, Streamlit, Copilot, and DevOps experiences, including authored and ghostwritten launch content.",
       "Led program development and messaging for Dev Day, exceeding 5K+ registrations more than a month ahead of target.",
     ],
   },
@@ -74,7 +74,7 @@ const roles = [
       "Helped scale ARR from $13M to $130M and platform adoption to 1M+ developers and 40M+ monthly builds.",
       "Built product marketing, technical marketing, partner marketing, and competitive intelligence functions.",
       "Launched CircleCI’s ecosystem and technology partner program as a lead-generating channel.",
-      "Scaled GTM frameworks across the product lifecycle, from launch to end-of-life.",
+      "Led PMM strategy for the State of Software Delivery report, translating research into messaging, sales enablement, blog content, and campaign assets.",
     ],
   },
   {
@@ -85,7 +85,7 @@ const roles = [
     summary:
       "Owned product architecture, competitive positioning, and messaging for developer and entrepreneur audiences.",
     bullets: [
-      "Redefined product messaging, value propositions, and positioning across audience segments.",
+      "Simplified the positioning of a multi-product offering through product architecture, audience-specific messaging, and value propositions.",
       "Delivered competitive analysis and brand tracker research for global competitors.",
       "Maintained high-engagement product communications with roughly 50% open rates.",
     ],
