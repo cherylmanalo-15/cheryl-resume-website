@@ -92,7 +92,7 @@ const roles = [
   },
 ];
 
-const tools = ["Claude", "ChatGPT", "Notion AI", "Granola", "HubSpot", "Salesforce", "Figma", "Miro", "Gong", "Amplitude", "Google Analytics", "CMS", "Webinar tooling", "Enablement platforms"];
+const tools = ["ChatGPT", "Claude", "Figma", "Miro", "Gong", "Amplitude", "HubSpot", "Salesforce"];
 
 function SectionHeader({ eyebrow, title, description }) {
   return (
@@ -114,7 +114,7 @@ export default function App() {
           <div className="nav-links">
             <a href="#impact">Impact</a>
             <a href="#experience">Experience</a>
-            <a href="#tooling">Tooling</a>
+            <a href="#tooling">How I work</a>
             <a
   href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Work-Samples.pdf"
   target="_blank"
@@ -213,7 +213,7 @@ export default function App() {
       </section>
 
       <section id="tooling" className="dark-section">
-        <SectionHeader eyebrow="AI & GTM workflow tooling" title="Modern PMM operating system." description="I use AI-assisted workflows and GTM tooling to accelerate messaging iteration, launch planning, executive briefings, competitive research, campaign execution, and field readiness." />
+        <SectionHeader eyebrow="Approach" title="How I work." description="Clear positioning starts with understanding the customer. I connect research and competitive insight to messaging, then refine the story with product and sales teams. AI-assisted workflows and marketing tools support the research, iteration, and execution; the judgment behind the work is mine." />
         <div className="tool-list">
           {tools.map((tool) => <span key={tool}>{tool}</span>)}
         </div>
