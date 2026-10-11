@@ -26,10 +26,10 @@ const roles = [
   {
     company: "Anaconda",
     title: "Sr. Director of Product Marketing",
-    time: "May 2025 – Present",
+    time: "May 2025 – Aug 2026",
     location: "Remote",
     summary:
-      "Leading GTM transformation during Anaconda’s shift from a traditional data science platform to a trusted foundation for AI-native development and enterprise AI workflows.",
+      "Led GTM transformation during Anaconda’s shift from a traditional data science platform to a trusted foundation for AI-native development and enterprise AI workflows.",
     bullets: [
       "Led executive positioning workshops to redefine the company narrative around AI-native development.",
       "Established messaging frameworks centered on governance, reproducibility, workflow adoption, and enterprise AI development.",
@@ -131,7 +131,7 @@ export default function App() {
             <div className="pill"><Sparkles size={16} /> Product Marketing Leader for AI-native platforms</div>
             <h1>Translating complex technical platforms into market narratives that drive adoption, engagement, and revenue.</h1>
             <p className="hero-copy">
-              I build and scale product marketing functions across developer tools, open-source ecosystems, AI workflows, and enterprise technology — with experience at Anaconda, Snowflake, CircleCI, PayPal, and Intuit.
+              I build and scale product marketing functions across developer tools, open-source ecosystems, AI workflows, and enterprise technology, with experience at Anaconda, Snowflake, CircleCI, PayPal, and Intuit.
             </p>
             <div className="contact-row">
               <span><MapPin size={16} /> San Francisco Bay Area</span>
