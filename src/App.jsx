@@ -142,14 +142,14 @@ export default function App() {
             <div className="dark-card">
               <p className="eyebrow green">Leadership focus</p>
               <h3>Strategic clarity for technical markets.</h3>
-              <p>I thrive in fast-moving environments that require crisp positioning, operational execution, and alignment across product, engineering, DevRel, sales, and executive teams.</p>
+              <p>I thrive in fast-moving environments that require crisp positioning, compelling messaging, creative execution, and alignment across product, engineering, DevRel, sales, and executive teams.</p>
             </div>
             <div className="focus-grid">
               {[
                 [Rocket, "GTM transformation"],
                 [ShieldCheck, "Enterprise AI trust"],
-                [Users, "Team building"],
-                [BarChart3, "PLG growth"],
+                [Users, "Messaging & storytelling"],
+                [BarChart3, "Product-led growth"],
               ].map(([Icon, label]) => (
                 <div className="focus-card" key={label}>
                   <Icon />
