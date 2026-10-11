@@ -65,7 +65,7 @@ const roles = [
   },
   {
     company: "CircleCI",
-    title: "Sr. Director / Director / Sr. Product Marketing",
+    title: "Senior Director of Product Marketing (promoted twice)",
     time: "Jan 2017 – Aug 2023",
     location: "San Francisco, CA / Remote",
     summary:
@@ -79,7 +79,7 @@ const roles = [
   },
   {
     company: "Braintree, a PayPal Company",
-    title: "Sr. Product Marketing",
+    title: "Senior Product Marketing Manager",
     time: "Jun 2015 – Dec 2016",
     location: "San Francisco, CA",
     summary:
