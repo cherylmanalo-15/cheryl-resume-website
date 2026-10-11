@@ -115,13 +115,7 @@ export default function App() {
             <a href="#impact">Impact</a>
             <a href="#experience">Experience</a>
             <a href="#tooling">How I work</a>
-            <a
-  href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Work-Samples.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Work Samples
-</a>
+
           </div>
           <a className="nav-button" href="mailto:cheryl.manalo@gmail.com">Contact</a>
         </nav>
@@ -218,18 +212,13 @@ export default function App() {
           {tools.map((tool) => <span key={tool}>{tool}</span>)}
         </div>
       </section>
-<a
-  href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Portfolio.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
->
-</a>
 
 <footer>
   <div className="footer-card">
     <div>
       <h2>Let’s build the story behind the next technical platform.</h2>
       <p>Product marketing leadership for AI, developer tools, and open-source ecosystems.</p>
+      <p>Selected work samples available upon request.</p>
     </div>
 
     <a className="primary-button" href="mailto:cheryl.manalo@gmail.com">
@@ -238,11 +227,9 @@ export default function App() {
 
     <a
       className="secondary-button"
-      href="/cheryl-resume-website/portfolio/Cheryl-Manalo-Work-Samples.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
+      href="mailto:cheryl.manalo@gmail.com?subject=Work%20samples%20request"
     >
-      View Work Samples
+      Request work samples
     </a>
   </div>
 </footer>
