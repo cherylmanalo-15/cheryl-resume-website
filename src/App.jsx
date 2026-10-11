@@ -182,6 +182,28 @@ export default function App() {
         </div>
       </section>
 
+
+      <section id="selected-work" className="content-section">
+        <SectionHeader eyebrow="Selected work" title="The story, the craft, and the output." description="A few examples of how I turn complex products and market insight into clear narratives and useful marketing." />
+        <div className="role-list">
+          <article className="role-card">
+            <div className="company-pill">Anaconda · Platform narrative</div>
+            <h3>Connecting an expanding portfolio to the enterprise AI workflow.</h3>
+            <p>I investigated customer and analyst concerns about putting AI into production, built internal alignment, and helped establish a platform story connecting acquired capabilities. The work translated into a workflow narrative and four capability pillars applied to the platform overview and homepage.</p>
+          </article>
+          <article className="role-card">
+            <div className="company-pill">CircleCI · Research-led storytelling</div>
+            <h3>Making software delivery data useful to the market.</h3>
+            <p>To differentiate CircleCI in a crowded CI/CD market, I led PMM strategy for the State of Software Delivery report and created the supporting messaging, sales enablement, blog, and campaign assets. The program gave teams a data-backed story to support enterprise sales conversations.</p>
+          </article>
+          <article className="role-card">
+            <div className="company-pill">Snowflake · Developer narrative and launch</div>
+            <h3>Bringing developer experiences to market with a clear story.</h3>
+            <p>I led positioning and launch work for Notebooks, Streamlit, Copilot, and DevOps experiences, including writing and ghostwriting product content. For Snowflake’s inaugural Dev Day, I developed the narrative, positioning, and GTM motion that secured more than 5,000 registrations over a month ahead of the event.</p>
+          </article>
+        </div>
+      </section>
+
       <section id="experience" className="content-section">
         <SectionHeader eyebrow="Experience" title="Built across every stage: startup, scale-up, and enterprise." description="From 0→1 GTM strategy to scaled PMM organizations, my work spans AI-native development, developer experience, infrastructure, payments, and open-source ecosystems." />
         <div className="role-list">
