@@ -7,8 +7,8 @@ const highlights = [
   { metric: "1M+", label: "CircleCI developer adoption during my tenure" },
   { metric: "40M+", label: "CircleCI monthly build volume during my tenure" },
   { metric: "5K+", label: "Snowflake Dev Day registrations ahead of target" },
-  { metric: "10x", label: "launch content engagement lift at Anaconda" },
-  { metric: "87%", label: "free sign-up growth driven at Inngest" },
+  { metric: "10x", label: "engagement growth across PMM-owned and optimized enablement content and assets at Anaconda (May 2025–July 2026)" },
+  { metric: "87%", label: "free sign-up growth during Inngest website and email lifecycle experiments (Jan–Mar 2025)" },
 ];
 
 const strengths = [
