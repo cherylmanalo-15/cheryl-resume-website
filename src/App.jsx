@@ -4,8 +4,8 @@ import { Mail, MapPin, ArrowRight, Sparkles, BriefcaseBusiness, BarChart3, Users
 
 const highlights = [
   { metric: "$13M → $130M", label: "CircleCI ARR growth journey" },
-  { metric: "1M+", label: "developers reached through platform adoption" },
-  { metric: "40M+", label: "monthly builds supported at CircleCI" },
+  { metric: "1M+", label: "CircleCI developer adoption during my tenure" },
+  { metric: "40M+", label: "CircleCI monthly build volume during my tenure" },
   { metric: "5K+", label: "Snowflake Dev Day registrations ahead of target" },
   { metric: "10x", label: "launch content engagement lift at Anaconda" },
   { metric: "87%", label: "free sign-up growth driven at Inngest" },
@@ -25,7 +25,7 @@ const strengths = [
 const roles = [
   {
     company: "Anaconda",
-    title: "Sr. Director of Product Marketing",
+    title: "Senior Director of Product Marketing",
     time: "May 2025 – Aug 2026",
     location: "Remote",
     summary:
@@ -162,7 +162,7 @@ export default function App() {
       </section>
 
       <section id="impact" className="content-section">
-        <SectionHeader eyebrow="Impact" title="Metrics that show scale, adoption, and market momentum." description="A track record of building product marketing engines that connect technical depth to business outcomes." />
+        <SectionHeader eyebrow="Impact" title="Metrics that show scale, adoption, and market momentum." description="Company scale during my tenure alongside marketing program results. ARR, developer adoption, and build volume reflect company-wide outcomes supported by cross-functional teams." />
         <div className="metrics-grid">
           {highlights.map((item) => (
             <div className="metric-card" key={item.metric}>
@@ -238,8 +238,8 @@ export default function App() {
 <footer>
   <div className="footer-card">
     <div>
-      <h2>Let’s build the story behind the next technical platform.</h2>
-      <p>Product marketing leadership for AI, developer tools, and open-source ecosystems.</p>
+      <h2>Let’s build a clear story for your next stage of growth.</h2>
+      <p>Positioning, messaging, launches, and go-to-market strategy for complex products and evolving markets.</p>
       <p>Selected work samples available upon request.</p>
     </div>
 
