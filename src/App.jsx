@@ -240,7 +240,7 @@ export default function App() {
     <div>
       <h2>Let’s build a clear story for your next stage of growth.</h2>
       <p>Positioning, messaging, launches, and go-to-market strategy for complex products and evolving markets.</p>
-      <p>Selected work samples available upon request.</p>
+      <p id="work-samples-note">Work samples PDF available below. Password provided upon request: <a href="mailto:cheryl.manalo@gmail.com?subject=Work%20samples%20password%20request" style={{ textDecoration: "underline" }}>request the password</a>.</p>
     </div>
 
     <a className="primary-button" href="mailto:cheryl.manalo@gmail.com">
@@ -249,9 +249,12 @@ export default function App() {
 
     <a
       className="secondary-button"
-      href="mailto:cheryl.manalo@gmail.com?subject=Work%20samples%20request"
+      href={`${import.meta.env.BASE_URL}portfolio/Cheryl-Manalo-Work-Samples.pdf`}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-describedby="work-samples-note"
     >
-      Request work samples
+      View work samples (PDF)
     </a>
   </div>
 </footer>
